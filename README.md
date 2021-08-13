@@ -1,2 +1,0 @@
-# DinoWorkshop.github.io
-help

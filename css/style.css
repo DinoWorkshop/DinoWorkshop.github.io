@@ -1,0 +1,24 @@
+legend {
+  color:lightblue;
+}
+
+fieldset {
+  background-color: black;
+  border-color: white;
+}
+
+body {
+  background-color: black;
+}
+
+p {
+  color: white;
+  text-indent: 20px;
+}
+
+.header header {
+  color:white;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
