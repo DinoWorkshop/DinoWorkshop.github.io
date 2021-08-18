@@ -1,0 +1,49 @@
+.topnav {
+  background-color: rgb(24, 116, 165);
+  height: 80px;
+  color: white;
+}
+
+.topnav a {
+  background-color: rgb(247, 127, 0);
+  color: white;
+}
+
+.topnav button {
+  background-color: rgb(247, 127, 0)
+}
+
+.content1 img {
+  width: 125px;
+  height: 150px;
+  float: right;
+  position: relative;
+}
+
+.topnav h1 {
+  text-align: left;
+}
+
+.content1 {
+  background-color: rgb(40, 35, 44);
+  color:white;
+  height:300px;
+  text-align:left;
+  text-indent: 20px;
+  padding: 10px;
+  border: 10px white;
+}
+
+footer {
+  background-color: rgb(193, 73, 83);
+  height: 50px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  padding: 1px;
+}
+
+article paragraph1 {
+  display: block;
+  float: left;
+}
