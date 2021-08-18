@@ -43,7 +43,7 @@ footer {
   padding: 1px;
 }
 
-article paragraph1 {
+.paragraph1 {
   display: block;
   float: left;
 }
