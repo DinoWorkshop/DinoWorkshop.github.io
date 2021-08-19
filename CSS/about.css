@@ -13,23 +13,7 @@
   background-color: rgb(247, 127, 0)
 }
 
-.content1 img {
-  width: 125px;
-  height: 150px;
-  float: right;
-}
-
-.topnav h1 {
-  text-align: left;
-}
-
 body {
-  background-color: rgb(40, 35, 44);
-}
-
-
-
-.content1 {
   background-color: rgb(40, 35, 44);
   color:white;
   height:300px;
@@ -39,16 +23,17 @@ body {
   border: 10px white;
 }
 
-footer {
-  background-color: rgb(193, 73, 83);
-  height: 50px;
-  text-align: center;
-  color: white;
-  font-size: 12px;
-  padding: 1px;
+.aboutme {
+  background-color: rgb(247, 127, 0);
+  border-radius: 5px;
+  padding: 0.5px;
 }
 
-.paragraph1 {
-  display: block;
-  float: left;
+footer {
+    background-color: rgb(193, 73, 83);
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 1px;
 }
