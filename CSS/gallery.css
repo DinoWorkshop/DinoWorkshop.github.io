@@ -6,7 +6,7 @@
 }
 
 .topnav button {
-  background-color: rgb(247, 127, 0)
+  background-color: rgb(247, 127, 0);
 }
 
 .topnav a {
@@ -17,18 +17,27 @@
 body {
   background-color: rgb(40, 35, 44);
   color:white;
-  height:300px;
-  text-align:left;
   text-indent: 20px;
-  padding: 10px;
-  border: 10px white;
+}
+
+.piece1 {
+  background-color: rgb(24, 116, 165);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+p {
+padding: 10px;
 }
 
 .transformers {
 float: right;
 width: 331px;
 height: 504px:
-
+border: 10px white;
+margin-right: 10px;
+margin-left: 10px;
 }
 
 
@@ -36,25 +45,60 @@ height: 504px:
   width: 330px;
   height: 510px;
   float: right;
+  margin-right: 10px;
 }
 
 .blackhole2 {
   width: 330px;
   height: 510px;
-
+margin-left: 10px;
 }
 
 .piece2and3 {
   width: 700px;
   height: auto;
+background-color: rgb(24, 116, 165);
+border-radius: 5px;
+margin-left: auto;
+margin-right: auto;
+}
 
+.piece2and3 h1 {
+  text-align: center;
 }
 
 .piece1 {
   width: 600px;
   height: auto;
-
 }
+
+.piece1 h1 {
+  text-align: center;
+}
+
+
+
+
+.halyxAlbum {
+  width: 586px;
+  height: 516px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.piece4 {
+  background-color: rgb(24, 116, 165);
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 700px;
+}
+
+.piece4 h1 {
+  text-align: center;
+}
+
 
 .intro {
   text-align: center;

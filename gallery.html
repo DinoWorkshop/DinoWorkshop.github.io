@@ -2,6 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="./CSS/gallery.css">
     <title>Portfolio Website</title>
   </head>
@@ -9,21 +11,22 @@
 
     <div class= "topnav">
       <h1> Gallery </h1>
-        <button> <a href="./index.html" class="home">Home</a></button>
-        <button>  <a href="./about.html" class="about">About</a> </button>
-        <button> <a href="./contacts.html" class="contacts">Contacts</a> </button>
+        <button> <a href="./index.html" class="home" alt="Home Button">Home</a></button>
+        <button>  <a href="./about.html" class="about" alt="About Button">About</a> </button>
+        <button> <a href="./contacts.html" class="contacts" alt="Contacts Button">Contacts</a> </button>
     </div>
 <br>
-    <fieldset class="intro">
+    <fieldset class="intro" alt="Introduction">
       <legend><b>A Quick Message.</b></legend>
       <p> So I'll be honest, this gallry may or may not be updated constantly and I am a little self
         concious about what is here. That being said, I hope it's still enjoyable! </p>
     </fieldset>
 
 <br>
+<div data-aos="fade-up">
 <!--Transformers Poster-->
-<fieldset class="piece1">
-<legend><b>Minimalist Poster</b></legend>
+<div class="piece1" alt="Piece 1">
+<h1><b>Minimalist Poster</b></h1>
 <img src="./Assets/Images/minimal_transformers_poster.png" alt="Transformers Poster" class="transformers">
 
 <p>
@@ -47,13 +50,15 @@ transformers as a whole. It's something far greater than the simple energy war o
 past. To that end, I think I did a decent job. I wouldn't change much other than the
 background and some shading on Unicron.
 </p>
-</fieldset>
+</div>
+</div>
 
 <br>
 
+<div data-aos="fade-up">
 <!--Black Hole Poster 1-->
-<fieldset class="piece2and3">
-  <legend><b>The Black Hole Posters</b></legend>
+<div class="piece2and3" alt="Pieces 2 and 3">
+  <h1><b>The Black Hole Posters</b></h1>
   <img src="./Assets/Images/black_hole_poster_2.jpg" alt="Alternative Black Hole Poster" class="blackhole1">
   <img src="./Assets/Images/black_hole_poster.jpg" alt="The Black Hole Poster" class="blackhole2">
   <p>
@@ -86,11 +91,51 @@ rolling towards the camera. The blending options almost makes it look like the t
 disintergrated by the titular black hole itself. Once again I was aiming for that untapped
 horror aspect of the film.
 </p>
-</fieldset>
+</div>
+</div>
+<br>
+<div data-aos="fade-up">
+<!-- Halyx Album Cover-->
+  <div class="piece4" alt="Piece 4">
+    <h1><b>Halyx Album Cover</b></h1>
+    <img src="./Assets/Images/halyx_album_cover_project.png" alt="Halyx Album Cover" class="halyxAlbum">
+    <p> So at one point we were told to make an album cover for a band of our choice.
+      I don't really listen to traditional bands and music so this was a little weird
+      for me to make a decision on, if I'm being honest. I decided to combine
+      my interest with theme park history with music for this assignment.
+      Halxy, for those who are unfamiliar, was a sci-fi themed rock band that played
+      at Disneyland's space stage outside Space Mountain in 1981. They only played June to
+      September that year but man they got some good stuff! The general lack of color with the
+      cover is just because a lot of their photos are still in black and white. Other than that, I simply
+      tried recreating the "H" logo and decided to put Space Mountain inside it as a callback to their
+      stage. </p>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--Footer-->
 <br>
-<footer>
+<footer alt="Blank Footer">
 </footer>
 
+<script>
+  AOS.init();
+</script>
   </body>
 </html>

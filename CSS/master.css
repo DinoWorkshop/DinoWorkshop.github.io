@@ -16,7 +16,8 @@
 .content1 img {
   width: 125px;
   height: 150px;
-  float: right;
+display: block;
+float: right;
 }
 
 .topnav h1 {
@@ -41,14 +42,14 @@ body {
 
 footer {
   background-color: rgb(193, 73, 83);
-  height: 50px;
   text-align: center;
   color: white;
   font-size: 12px;
-  padding: 1px;
+  padding: 10px;
 }
 
 .paragraph1 {
   display: block;
   float: left;
+  width: 500px;
 }
