@@ -1,46 +1,75 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+    </style>
+
+
+<link rel="stylesheet" href="./css/style.css">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="./CSS/master.css">
-    <title>Portfolio Website</title>
+    <title>Andrew's Portfolio</title>
   </head>
-  <body>
+  <body class="bg-dark">
 
-    <div class= "topnav" alt="Navigation">
-      <h1> Welcome to my portfolio! </h1>
-        <button> <a href="./gallery.html" class="gallery" alt="Gallery Button">Gallery</a> </button>
-        <button>  <a href="./about.html" class="about" alt="About Button">About</a> </button>
-        <button> <a href="./contacts.html" class="contacts" alt="Contacts Button">Contacts</a> </button>
-    </div>
-
-    <div class="content1" alt="Header">
-      <h1> Hey there! </h1>
-
-<fieldset class="paragraph1" alt="Welcome Paragraph">
-      <p>
-       While this is my portfolio, it's all work and progress and I'll probably
-        never be finished with this fully.<br>
-        There's always room for improvement if you want my honest opinion about personal projects like this.<br>
-        I'll probably keep updating and adding stuff as long as I'm alive, I'm never always satisfied with my work.
-      </p>
-</fieldset>
-
-<img src="./Assets/Images/updated_logo.png" alt="Dinosaur_Logo" class="logo">
-<br>
-      </div>
-
-
-
-
-
-
-
-
-
-
+<!--Nav Bar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-danger">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link text-light" href="./index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="./gallery.html">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="./about.html">About Me</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
 <br>
+
+<h1 class="text-white text-center animate__animated animate__bounceIn" id="greetings"> Greetings everyone! </h1>
+
+<h2 class="text-white text-center animate__animated animate__bounceIn" id="welcome"> Welcome to my portfolio! </h2>
+
+<br>
+<br>
+
+<img src="./assets/images/dinosaur_logo_v3.png" class="img-fluid rounded mx-auto d-block animate__animated animate__fadeIn" id="dinosaur_logo">
+
+<br>
+
+<p class="text-white text-center animate__animated animate__bounceIn"> This is just a simple site I've cooked up in order to display my favorite works,
+  I'll do my best to keep updating it as I go! Feel free to look around
+as much as you'd like. My main interests are in graphics design and toy photography, more on that in "About Me"! </p>
+
+
+
+
+
+
+
+
   </body>
-  <footer alt="Footer"><h1> Hope you enjoy your stay here! </h1></footer>
 </html>

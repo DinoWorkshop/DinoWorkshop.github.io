@@ -1,0 +1,47 @@
+#dinosaur_logo {
+  width: 40%;
+  height: auto;
+}
+
+#greetings {
+  font-family: 'Play', sans-serif;
+  font-weight:bold;
+}
+
+#welcome {
+  font-family: 'Play', sans-serif;
+  font-weight:bold;
+}
+
+#welcome_gallery {
+  font-family: 'Play', sans-serif;
+  font-weight:bold;
+}
+
+#favorite_works {
+  font-family: 'Play' sans-serif;
+  font-weight:bold;
+}
+
+#bio {
+  font-family: 'Play' sans-serif;
+  font-weight:bold;
+}
+
+p {
+  text-indent:20px;
+}
+
+#contact_info {
+  font-family: 'Play' sans-serif;
+  font-weight:bold;
+}
+
+#any_questions {
+  font-family: 'Play' sans-serif;
+  font-weight:bold;
+}
+
+#bio_para_3 {
+  font-weight:bolder;
+}
