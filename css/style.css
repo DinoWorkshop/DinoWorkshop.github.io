@@ -1,5 +1,5 @@
 #dinosaur_logo {
-  width: 40%;
+  width: 20%;
   height: auto;
 }
 
@@ -44,4 +44,14 @@ p {
 
 #bio_para_3 {
   font-weight:bolder;
+}
+
+img {
+  display: block;
+  max-width: 50%;
+  height: auto;
+}
+
+.carousel-inner > .item {
+   height: 400px;
 }
